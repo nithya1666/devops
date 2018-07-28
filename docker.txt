@@ -1,0 +1,22 @@
+  1  docker container run -p 80:80 --name ngixserver -d ngnix
+    2  docker container run -p 80:80 --name ngixserver -d nginx
+    3  docker ps
+    4  docker container ls
+    5  docker container ls -a
+    6  docker container run -p 81:81 --name nginx1 -d nginx
+    7  docker ps
+    8  docker stop a50
+    9  docker ps
+   10  docker container ls -a
+   11  docker status
+   12  docker status a50
+   13  docker status f9a
+   14  docker status f9ac34b50289
+   15  docker logs f9ac34b50289
+   16  clear
+   17  docker container ls -a
+   18  docker rm a50
+   19  docker container ls -a
+   20  docker rm -f f9a
+   21  docker container ls -a
+   22  history
